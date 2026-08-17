@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="MInEgdeUWP_0._1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MInEgdeUWP_0._1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}" d:DesignWidth="1221">
+
+    <Grid>
+        <Button Content="Sign UP" Margin="356,550,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.257,1.132" Height="36" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="135" Click="Button_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="0.849" ScaleY="1" ScaleX="1" SkewX="1.569" SkewY="0" TranslateX="1.848" TranslateY="-0.684"/>
+            </Button.RenderTransform>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="100" Margin="873,524,0,0" VerticalAlignment="Top" Width="100" ImageOpened="Image_ImageOpened"/>
+        <TextBlock HorizontalAlignment="Left" Margin="79,100,0,0" Text="Sign in" TextWrapping="Wrap" VerticalAlignment="Top" Height="84" Width="230" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.319,0"><Run Text="Name"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="130,364,0,0" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="217,357,0,0" VerticalAlignment="Top" Width="270"/>
+        <TextBox HorizontalAlignment="Left" Margin="217,277,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="270"/>
+        <Button Content="OK!" Margin="217,548,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.323,1.062" Width="110" Click="Button_Click_2" Height="37"/>
+    </Grid>
+</Page>

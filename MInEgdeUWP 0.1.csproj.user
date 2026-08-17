@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\MinEgde\桌面\新建位图图像.bmp</Source>
+    <AppIconSource>D:\MinEgde\桌面\新建位图图像.bmp</AppIconSource>
+    <SplashScreenSource>D:\MinEgde\桌面\新建位图图像 %282%29.bmp</SplashScreenSource>
+    <BadgeLogoSource>D:\MinEgde\桌面\新建位图图像 %282%29.bmp</BadgeLogoSource>
+    <PackageLogoSource>D:\MinEgde\桌面\新建位图图像 %282%29.bmp</PackageLogoSource>
+    <SmallTileSource>D:\MinEgde\桌面\新建位图图像 %282%29.bmp</SmallTileSource>
+    <WideTileSource>D:\MinEgde\桌面\新建位图图像.bmp</WideTileSource>
+    <MediumTileSource>D:\MinEgde\桌面\新建位图图像 %283%29.bmp</MediumTileSource>
+    <LargeTileSource>D:\MinEgde\桌面\新建位图图像 %284%29.bmp</LargeTileSource>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>
