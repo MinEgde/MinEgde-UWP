@@ -1,2 +1,6 @@
-MainPackage=D:\UWP\minegdeuwp\MInEgdeUWP 0.1\bin\x64\Debug\MInEgdeUWP 0.1_0.2.0.0_x64_Debug.appx
-SymbolPackage=D:\UWP\minegdeuwp\MInEgdeUWP 0.1\obj\x64\Debug\Symbols\MInEgdeUWP 0.1_0.2.0.0_x64_Debug.appxsym
+MainPackage=D:\MinEgdeUWP\New-MinEgde-UWP\bin\x64\Debug\New-MinEgde-UWP_0.3.0.0_x64_Debug.msix
+SymbolPackage=D:\MinEgdeUWP\New-MinEgde-UWP\obj\x64\Debug\Symbols\New-MinEgde-UWP_0.3.0.0_x64_Debug.appxsym
+ResourcePack=D:\MinEgdeUWP\New-MinEgde-UWP\bin\x64\Debug\New-MinEgde-UWP_0.3.0.0_scale-100.msix
+ResourcePack=D:\MinEgdeUWP\New-MinEgde-UWP\bin\x64\Debug\New-MinEgde-UWP_0.3.0.0_scale-125.msix
+ResourcePack=D:\MinEgdeUWP\New-MinEgde-UWP\bin\x64\Debug\New-MinEgde-UWP_0.3.0.0_scale-150.msix
+ResourcePack=D:\MinEgdeUWP\New-MinEgde-UWP\bin\x64\Debug\New-MinEgde-UWP_0.3.0.0_scale-400.msix

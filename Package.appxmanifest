@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="MinEgde-UWP"
+    Name="New-MinEgde-UWP-Beta"
     Publisher="CN=MinEgde"
-    Version="0.2.0.0" />
+    Version="0.3.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="67b3f553-1ec3-440c-a242-ac65548175d6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="66307495-278d-45a9-9d56-52ab546e475e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>MInEgdeUWP 0.2</DisplayName>
+    <DisplayName>New-MinEgde-UWP</DisplayName>
     <PublisherDisplayName>MinEgde</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,18 +30,16 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="MInEgdeUWP_0.2.App">
+      EntryPoint="New_MinEgde_UWP.App">
       <uap:VisualElements
-        DisplayName="MInEgdeUWP 0.2"
+        DisplayName="New-MinEgde-UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="MInEgdeUWP Bata"
+        Description="New-MinEgde-UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
-        <uap:LockScreen BadgeLogo="Assets\BadgeLogo.png" Notification="badge"/>
-        <uap:InitialRotationPreference>
-          <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
+        <uap:LockScreen BadgeLogo="Assets\BadgeLogo.png" Notification="badgeAndTileText"/>
       </uap:VisualElements>
     </Application>
   </Applications>
